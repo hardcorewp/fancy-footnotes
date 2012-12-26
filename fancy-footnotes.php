@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Fancy Footnotes
  * Plugin URI: http://hardcorewp.com/plugins/fancy-footnotes
- * Description: Footnotes plugin that uses syntax similar to Markdown Extra, smooth scrolling to footnotes and yellow-fade highlighting of paragraphs contains footnotes and references. Developed for use on <a href="http://hardcorewp.com">HardcoreWP.com</a>.
+ * Description: A Footnotes plugin for WordPress that uses syntax similar to Markdown Extra, smooth scrolling to footnotes and yellow-fade highlighting of paragraphs contains footnotes and references. Developed for use on <a href="http://hardcorewp.com">HardcoreWP.com</a>.
  * Version: 0.1
  * Author: Mike Schinkel
  * Author URI: http://about.me/mikeschinkel
