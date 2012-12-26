@@ -63,7 +63,7 @@ jQuery(document).ready(function($) {
 	}
 	function moveTo($target) {
 		$('body').animate({
-			'scrollTop': $target.offset().top - 75
+			'scrollTop': $target.offset().top - 125
 		}, 500, 'swing', function () {
 			highlight($target);
 		});
