@@ -53,11 +53,11 @@
     preg_match_all( '#\[\^([^]]+)\]:(.*)#', $content, $matches );
     $footnotes = array_flip( $matches[1] );
     $footnote_text = $matches[2];
-    foreach( $this->footnote_references as $index => $footnote_name ) {
-      if ( isset( $footnotes[$footnote_name] ) ) {
+    foreach( $this->footnote_references as $index => $footnote_label ) {
+      if ( isset( $footnotes[$footnote_label] ) ) {
         $number = $index+1;
         $html[] = <<<HTML
-<dt><a class="footnote-link" name="{$footnote_name}-footnote" href="#{$footnote_name}-reference">[{$number}]</a></dt>
+<dt><a class="footnote-link" name="{$footnote_label}-footnote" href="#{$footnote_label}-reference">[{$number}]</a></dt>
 <dd>{$footnote_text[$index]}</dd>
 HTML;
       }
